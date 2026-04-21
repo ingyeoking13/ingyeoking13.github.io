@@ -1,103 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yohan Jeong CV</title>
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-}
-h1 { font-size: 32px; }
-h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; }
-p { line-height: 1.4; }
-.container { margin-bottom: 30px; }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yohan Jeong CV</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1;
+        }
+
+        .container {
+            margin-bottom: 30px;
+        }
+    </style>
 
 </head>
 
 <body>
 
-<h1>Yohan Jeong</h1>
-<p>Gwanak-gu, Seoul</p>
-<p>Email: gaelim@naver.com | ingyeoking13@gmail.com</p>
-<p>Phone: +82 10-5026-5099</p>
-<p>
-Github: <a href="https://github.com/ingyeoking13">ingyeoking13</a> |
-Blog: <a href="https://ingyeoking13.tistory.com/">Tistory</a>
-</p>
+    <h1>Yohan Jeong</h1>
+    <div style="display: flex; align-items: center;">
+        <img src="me.jpeg" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;" />
+        <p style="margin-left: 20px;">Gwanak-gu, Seoul </br>
+            Email: gaelim@naver.com | ingyeoking13@gmail.com </br>
+            Phone: +82 10-5026-5099 </br>
+            Github: <a href="https://github.com/ingyeoking13">ingyeoking13</a> | Blog: <a
+                href="https://ingyeoking13.tistory.com/">Tistory</a> </br>
+            Engineer
+        </p>
+    </div>
 
-<div class="container">
-<h2>Summary</h2>
-<p>Backend Engineer</p>
+    <div class="container">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: Java, Python, Go, C#, C++</li>
+                <li>Backend: Spring Boot, FastAPI</li>
+                <li>Frontend: React (basic)</li>
+                <li>Infra: AWS (EC2, Auto Scaling), Docker, Kubernetes</li>
+                <li>Tools: Git, Jira, Confluence</li>
+            </ul>
+        </div>
 
-<h3>Research Interests</h3>
-<ul>
-<li>Distributed Systems (Raft, Consensus)</li>
-<li>MapReduce, Ray 기반 데이터 처리</li>
-<li>Fault Tolerance & Replication</li>
-<li>Cloud Infrastructure</li>
-</ul>
-</div>
+        <div class="container">
+            <h2>Work Experience</h2>
 
-<div class="container">
-<h2>Skills</h2>
-<ul>
-<li>Languages: Java, Python, Go, C#, C++</li>
-<li>Backend: Spring Boot, FastAPI</li>
-<li>Frontend: React (basic)</li>
-<li>Infra: AWS (EC2, Auto Scaling), Docker, Kubernetes</li>
-<li>Tools: Git, Jira, Confluence</li>
-</ul>
-</div>
+            <p><b>NEWEYE</b> (2023.09 - Present)</p>
+            <ul>
+                <li>Spring Boot 기반 백엔드 개발</li>
+                <li>AWS 인프라 구축 및 운영</li>
+                <li>CI/CD 및 Auto Scaling 환경 설계</li>
+            </ul>
 
-<div class="container">
-<h2>Work Experience</h2>
+            <p><b>Meritz Fire & Marine Insurance</b> (2022.04 - 2023.08)</p>
+            <ul>
+                <li>FastAPI + Ray 기반 분산 서비스 개발</li>
+                <li>Kubernetes 기반 서비스 운영</li>
+                <li>React 프론트엔드 개발</li>
+            </ul>
 
-<p><b>NEWEYE</b> (2023.09 - Present)</p>
-<ul>
-<li>Spring Boot 기반 백엔드 개발</li>
-<li>AWS 인프라 구축 및 운영</li>
-<li>CI/CD 및 Auto Scaling 환경 설계</li>
-</ul>
+            <p><b>Clbee Systems</b> (2019.11 - 2021.07)</p>
+            <ul>
+                <li>WPF 기반 Windows Client 개발</li>
+            </ul>
 
-<p><b>Meritz Fire & Marine Insurance</b> (2022.04 - 2023.08)</p>
-<ul>
-<li>FastAPI + Ray 기반 분산 서비스 개발</li>
-<li>Kubernetes 기반 마이크로서비스 운영</li>
-<li>React 프론트엔드 개발</li>
-</ul>
+            <p><b>Hyundai AutoEver</b> Internship (2019.10)</p>
 
-<p><b>Clbee Systems</b> (2019.11 - 2021.07)</p>
-<ul>
-<li>WPF 기반 Windows Client 개발</li>
-</ul>
+        </div>
 
-<p><b>Hyundai AutoEver</b> Internship (2019.10)</p>
+        <div class="container">
+            <h2>Education</h2>
+            <p>Hongik University, Industrial Engineering (2010 - 2017)</p>
+            <p>GPA: 3.23 / 4.5</p>
+        </div>
 
-</div>
+        <div class="container">
+            <h2>Publications</h2>
+            <p>
+                Operational Strategies for Jeju Airport to Meet Post-2020 Demand<br>
+                Korean Institute of Industrial Engineers, 2016
+            </p>
+        </div>
 
-<div class="container">
-<h2>Education</h2>
-<p>Hongik University, Industrial Engineering (2010 - 2017)</p>
-<p>GPA: 3.23 / 4.5</p>
-</div>
-
-<div class="container">
-<h2>Publications</h2>
-<p>
-Operational Strategies for Jeju Airport to Meet Post-2020 Demand<br>
-Korean Institute of Industrial Engineers, 2016
-</p>
-</div>
-
-<div class="container">
-<h2>Others</h2>
-<p>Programming: Java, Python, Go, C#, C++</p>
-<p>English: TEPS 347 (2026)</p>
-</div>
+        <div class="container">
+            <h2>Others</h2>
+            <p>Programming: Java, Python, Go, C#, C++</p>
+            <p>English: TEPS 347 (2026)</p>
+        </div>
 
 </body>
+
 </html>
